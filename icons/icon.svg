@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34D399"/>
+      <stop offset="1" stop-color="#0E9F6E"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EAF7F1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- お札 -->
+  <rect x="268" y="226" width="460" height="210" rx="40" fill="#FFFFFF" opacity=".55" transform="rotate(-8 498 331)"/>
+  <!-- サイフ本体 -->
+  <rect x="196" y="318" width="632" height="456" rx="92" fill="url(#body)"/>
+  <!-- 留め具 -->
+  <rect x="612" y="474" width="216" height="144" rx="72" fill="#0E9F6E"/>
+  <circle cx="684" cy="546" r="30" fill="#FFFFFF"/>
+</svg>
